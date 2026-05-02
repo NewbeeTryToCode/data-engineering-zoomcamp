@@ -62,7 +62,7 @@ models:
                 to: ref('dim_zones')
                 field: location_id
       - name: pickup_borough
-        description: NYC borough where trip started
+        description: NYC borough where trips started
         data_type: string
       - name: pickup_zone
         description: Specific zone where trip started
